@@ -1,66 +1,42 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { BiHome, BiUser, BiBookBookmark, BiBriefcase, BiMoon} from "react-icons/bi";
+import styles from '../styles/App.module.css'
 
-export default function MainPage() {
+export default function JoshuaApp() {
   return (
     <div>
       <Head>
         <title>Joshua</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <header className={styles.header}>
-        <nav className={styles.container}>
-          <a href="#" className={styles.nav__logo}>Joshua</a>
+      <header className={styles.l-header}>
+        <nav className={styles.bg-grid}>
+          <div>
+            <a href="" className={styles.nav__logo}>JOSHUA</a>
+          </div>
 
-          <div className={styles.nav__menu}>
-            <ul className={styles.nav__list}>
-              <li className={styles.item}>
-                <a href="#home" className={styles.nav__link}>
-                  <BiHome/>
-                </a>
-              </li>
-
-              <li className={styles.item}>
-                <a href="#about" className={styles.nav__link}>
-                  <BiUser/>
-                </a>
-              </li>
-
-              <li className={styles.item}>
-                <a href="#skills" className={styles.nav__link}>
-                  <BiBookBookmark/>
-                </a>
-              </li>
-
-              <li className={styles.item}>
-                <a href="#work" className={styles.nav__link}>
-                  <BiBriefcase/>
-                </a>
-              </li>
+          <div className={nav__menu}>
+            <ul className={nav__list}>
+              <li className={nav__item}><a href="#home" className={nav__link}>Home</a></li>
+              <li className={nav__item}><a href="#about" className={nav__link}>About</a></li>
+              <li className={nav__item}><a href="#skills" className={nav__link}>Skills</a></li>
+              <li className={nav__item}><a href="#work" className={nav__link}>Work</a></li>
+              <li className={nav__item}><a href="#contact" className={nav__link}>Contact</a></li>
             </ul>
           </div>
 
-          {/**The change button */}
-          <i className={styles.changeTheme}>
-            <BiMoon/>
-          </i>
+          <div className={styles.nav__toggle}>
+            
+          </div>
+
         </nav>
       </header>
-      <main>
-        <section className={styles.main}>
-          <div className={styles.container}>
-            <span className={styles.greeting}>👋🏻 Hey! I am</span>
-              <h1 className={styles.name}>Joshua Fuentes</h1>
-              <h3 className={styles.education}>3D Designer and NFT Artist</h3>
 
-              <div className={styles.buttons}>
-                <a download= "" href="" className={styles.button}>
-                  Download CV
-                </a>
-              </div>
+      <main className={styles.l-main}>
+        <section className={styles.bd-grid}>
+          <div className={styles.home__data}>
+            <h1 className={styles.home__title}>Hi,<br>I am <span className={styles.home__title-color}>Joshua</span></br>3D Designer and NFT Artist</h1>
           </div>
-        </section> 
+        </section>
       </main>
 
     </div>
