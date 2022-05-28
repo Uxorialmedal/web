@@ -8,8 +8,8 @@ export default function JoshuaApp() {
         <title>Joshua</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
-      <header className={styles.l-header}>
-        <nav className={styles.bg-grid}>
+      <header className={styles.l_header}>
+        <nav className={styles.bg_grid}>
           <div>
             <a href="" className={styles.nav__logo}>JOSHUA</a>
           </div>
@@ -31,12 +31,28 @@ export default function JoshuaApp() {
         </nav>
       </header>
 
-      <main className={styles.l-main}>
-        <section className={styles.bd-grid}>
+      <main className={styles.l_main}>
+        <section className={styles.bd_grid}>
           <div className={styles.home__data}>
             <h1 className={styles.home__title}>Hi,<br>I am <span className={styles.home__title-color}>Joshua</span></br>3D Designer and NFT Artist</h1>
+
+            <a href="#" className={styles.button}>Contact</a>
           </div>
+
+          <div>
+            <a href="" className={styles.home__social_icon}></a>
+            <a href="" className={styles.home__social_icon}></a>
+            <a href="" className={styles.home__social_icon}></a>
+          </div>
+
+          <div className={styles.home__img}>
+
+          </div>
+
         </section>
+
+        {/** ABOUT */}
+
       </main>
 
     </div>
