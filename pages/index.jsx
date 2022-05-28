@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/App.module.css'
+import { BiMenu } from "react-icons/bs";
 
 export default function JoshuaApp() {
   return (
@@ -9,7 +10,7 @@ export default function JoshuaApp() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <header className={styles.l_header}>
-        <nav className={styles.bg_grid}>
+        <nav className={styles.bd_grid}>
           <div>
             <a href="" className={styles.nav__logo}>JOSHUA</a>
           </div>
@@ -25,7 +26,7 @@ export default function JoshuaApp() {
           </div>
 
           <div className={styles.nav__toggle}>
-            
+            <BiMenu/>
           </div>
 
         </nav>
@@ -34,7 +35,7 @@ export default function JoshuaApp() {
       <main className={styles.l_main}>
         <section className={styles.bd_grid}>
           <div className={styles.home__data}>
-            <h1 className={styles.home__title}>Hi,<br>I am <span className={styles.home__title-color}>Joshua</span></br>3D Designer and NFT Artist</h1>
+            <h1 className={styles.home__title}>Hi,<br>I am <span className={styles.home__title_color}>Joshua</span></br>3D Designer and NFT Artist</h1>
 
             <a href="#" className={styles.button}>Contact</a>
           </div>
