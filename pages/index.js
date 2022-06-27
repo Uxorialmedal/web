@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import CasaRosa from "../images/CasaRosa.jpg";
+import Frasco from "../images/Frasco.jpg"
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,11 +19,66 @@ export default function Home() {
           Joshua Fuentes <a href="https://twitter.com/eluxorialmedal4">3D Designer</a>
         </h1>
 
-        <div className={styles.description}>
+        <section className={styles.description}>
           <p>I´m 3D desginer that loves create new things with Blender 💻</p>
+        </section>
 
-          <p>The following images was created for me using [...]</p>
-        </div>
+        <section className={styles.portafolio}>
+          <h2>💼 Portafolio 💼</h2>
+          <p>Most recent works...</p>
+
+          <div className={styles.box}>
+              <div className={styles.boxImage}>
+                <div>
+                  <article>
+                    <Image src={CasaRosa} className={styles.Image}/>
+                  </article>
+                </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={CasaRosa} className={styles.Image}/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={CasaRosa} className={styles.Image}/>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.box}>
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={CasaRosa} className={styles.Image}/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={CasaRosa} className={styles.Image}/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={CasaRosa} className={styles.Image}/>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
 
       </main>
 
