@@ -8,6 +8,7 @@ import Robot from "../images/Robot.jpg";
 import CuartoRosa from "../images/CuartoRosa.jpg";
 import CasaOscura from "../images/CasaOscura.jpg";
 import Molino from "../images/Molino.jpg";
+import Knowledge from "../images/Knowledge.png";
 
 export default function Home() {
   return (
@@ -88,6 +89,13 @@ export default function Home() {
           <h2 className={styles.subtitle}>
             Knowledge
           </h2>
+
+          <p className={styles.knowText}>
+            Having knowledge in Blender and a little bit in Unity 🦖
+          </p>
+          <div className={styles.know}>
+          <Image src={Knowledge} className={styles.knowImage}/>
+          </div>
         </section>
 
       </main>

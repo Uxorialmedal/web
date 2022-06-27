@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #ad02e0;
+  color: #5e17eb;
   text-decoration: none;
 }
 
@@ -101,4 +101,25 @@
 
 .subtitle {
   font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.know {
+  width: 500px;
+}
+
+.knowText {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.knowImage {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 1rem;
 }
