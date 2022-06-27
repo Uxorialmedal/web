@@ -4,6 +4,10 @@ import styles from '../styles/Home.module.css'
 
 import CasaRosa from "../images/CasaRosa.jpg";
 import Frasco from "../images/Frasco.jpg"
+import Robot from "../images/Robot.jpg";
+import CuartoRosa from "../images/CuartoRosa.jpg";
+import CasaOscura from "../images/CasaOscura.jpg";
+import Molino from "../images/Molino.jpg";
 
 export default function Home() {
   return (
@@ -39,7 +43,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaRosa} className={styles.Image}/>
+                  <Image src={Frasco} className={styles.Image}/>
                 </article>
               </div>
             </div>
@@ -47,7 +51,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaRosa} className={styles.Image}/>
+                  <Image src={Robot} className={styles.Image}/>
                 </article>
               </div>
             </div>
@@ -57,7 +61,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaRosa} className={styles.Image}/>
+                  <Image src={CuartoRosa} className={styles.Image}/>
                 </article>
               </div>
             </div>
@@ -65,7 +69,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaRosa} className={styles.Image}/>
+                  <Image src={CasaOscura} className={styles.Image}/>
                 </article>
               </div>
             </div>
@@ -73,7 +77,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaRosa} className={styles.Image}/>
+                  <Image src={Molino} className={styles.Image}/>
                 </article>
               </div>
             </div>

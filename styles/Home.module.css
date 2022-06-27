@@ -87,6 +87,7 @@
 
 .boxImage {
   display: flex;
+  width: 400px;
   justify-content: space-between;
   padding: 0.5rem;
   margin: 0.5rem;
@@ -94,5 +95,6 @@
 
 .Image {
   border-radius: 1rem;
-  width: 180px;
+  width: 100%;
+  height: 100%;
 }
