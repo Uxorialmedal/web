@@ -28,8 +28,8 @@ export default function Home() {
         </section>
 
         <section className={styles.portafolio}>
-          <h2>💼 Portafolio 💼</h2>
-          <p>Most recent works...</p>
+        <h2 className={styles.subtitle}>💼 Portafolio 💼</h2>
+          <p styles={styles.works}>Most recent works...</p>
 
           <div className={styles.box}>
               <div className={styles.boxImage}>
@@ -82,6 +82,12 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section>
+          <h2 className={styles.subtitle}>
+            Knowledge
+          </h2>
         </section>
 
       </main>
