@@ -36,7 +36,7 @@ export default function Home() {
               <div className={styles.boxImage}>
                 <div>
                   <article>
-                    <Image src={CasaRosa} className={styles.Image}/>
+                    <Image src={CasaRosa} className={styles.Image} alt="CasaRosa"/>
                   </article>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={Frasco} className={styles.Image}/>
+                  <Image src={Frasco} className={styles.Image} alt="Frasco"/>
                 </article>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={Robot} className={styles.Image}/>
+                  <Image src={Robot} className={styles.Image} alt="Robot"/>
                 </article>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CuartoRosa} className={styles.Image}/>
+                  <Image src={CuartoRosa} className={styles.Image} alt="CuartoRosa"/>
                 </article>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={CasaOscura} className={styles.Image}/>
+                  <Image src={CasaOscura} className={styles.Image} alt="CasaOscuro"/>
                 </article>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Home() {
             <div className={styles.boxImage}>
               <div>
                 <article>
-                  <Image src={Molino} className={styles.Image}/>
+                  <Image src={Molino} className={styles.Image} alt="Molino"/>
                 </article>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function Home() {
             Having knowledge in Blender and a little bit in Unity 🦖
           </p>
           <div className={styles.know}>
-          <Image src={Knowledge} className={styles.knowImage}/>
+          <Image src={Knowledge} className={styles.knowImage} alt="Knowledge"/>
           </div>
         </section>
 
