@@ -9,6 +9,8 @@ import CuartoRosa from "../images/CuartoRosa.jpg";
 import CasaOscura from "../images/CasaOscura.jpg";
 import Molino from "../images/Molino.jpg";
 import Knowledge from "../images/Knowledge.png";
+import Tiburoncin from "../images/Tiburoncin.png";
+
 
 export default function Home() {
   return (
@@ -76,6 +78,17 @@ export default function Home() {
             </div>
 
             <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Tiburoncin} className={styles.Image} alt="Tiburoncin"/>
+                </article>
+              </div>
+            </div>
+
+          </div>
+
+          <div className={styles.box}>
+          <div className={styles.boxImage}>
               <div>
                 <article>
                   <Image src={Molino} className={styles.Image} alt="Molino"/>
