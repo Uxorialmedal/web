@@ -14,6 +14,8 @@ import Guitar from "../images/Guitar.jpg";
 import Charro from "../images/Charro.jpg";
 import Belico from "../images/Belico.jpg";
 import Axolote from "../images/Axolote.jpg";
+import PlantCig from "../images/PlantCigarrete.jpg";
+import Uni from "../images/Uni.jpg"
 
 export default function Home() {
   return (
@@ -113,6 +115,25 @@ export default function Home() {
                 </article>
               </div>
             </div>
+          </div>
+          
+          <div className={styles.box}>
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={PlantCig} className={styles.Image} alt="Planta carnívora fumando"/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Uni} className={styles.Image} alt="Logo de universidad en trajinera"/>
+                </article>
+              </div>
+            </div>
+
           </div>
 
           <div className={styles.box}>
