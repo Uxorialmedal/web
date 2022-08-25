@@ -10,7 +10,12 @@ import CasaOscura from "../images/CasaOscura.jpg";
 import Molino from "../images/Molino.jpg";
 import Knowledge from "../images/Knowledge.png";
 import Tiburoncin from "../images/Tiburoncin.png";
-
+import Guitar from "../images/Guitar.jpg";
+import Charro from "../images/Charro.jpg";
+import Belico from "../images/Belico.jpg";
+import Axolote from "../images/Axolote.jpg";
+import PlantCig from "../images/PlantCigarrete.jpg";
+import Uni from "../images/Uni.jpg"
 
 export default function Home() {
   return (
@@ -31,7 +36,7 @@ export default function Home() {
         </section>
 
         <section className={styles.portafolio}>
-        <h2 className={styles.subtitle}>💼 Portafolio 💼</h2>
+         <h2 className={styles.subtitle}>💼 Portafolio 💼</h2>
           <p styles={styles.works}>Most recent works...</p>
 
           <div className={styles.box}>
@@ -84,7 +89,60 @@ export default function Home() {
                 </article>
               </div>
             </div>
+          </div>
 
+          <div className={styles.box}>
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Charro} className={styles.Image} alt="Charro"/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Axolote} className={styles.Image} alt="Ajolote"/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Belico} className={styles.Image} alt="Charro Bélico"/>
+                </article>
+              </div>
+            </div>
+          </div>
+          
+          <div className={styles.box}>
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={PlantCig} className={styles.Image} alt="Planta carnívora fumando"/>
+                </article>
+              </div>
+            </div>
+
+            <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Uni} className={styles.Image} alt="Logo de universidad en trajinera"/>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.box}>
+          <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Guitar} className={styles.Image} alt="Guitarra"/>
+                </article>
+              </div>
+            </div>
           </div>
 
           <div className={styles.box}>
