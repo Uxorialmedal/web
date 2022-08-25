@@ -133,7 +133,16 @@ export default function Home() {
                 </article>
               </div>
             </div>
+          </div>
 
+          <div className={styles.box}>
+          <div className={styles.boxImage}>
+              <div>
+                <article>
+                  <Image src={Guitar} className={styles.Image} alt="Guitarra"/>
+                </article>
+              </div>
+            </div>
           </div>
 
           <div className={styles.box}>
